@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-quasarv1",
+  "version": "0.0.0",
+  "description": "ESLint plugin to assist with the conversion of a Quasar Framework V0.17 to to V1.0 project",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Kerry",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
